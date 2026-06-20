@@ -30,7 +30,7 @@ def find_public_key_x_public_key_y_and_private_key(public_key, generator_x, gene
 
     
     # Increment the counter
-    counter += 1
+    counter += 1000000
 
     print("Counter:", counter)
     
