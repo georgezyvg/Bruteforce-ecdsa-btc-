@@ -26,11 +26,11 @@ def find_public_key_x_public_key_y_and_private_key(public_key, generator_x, gene
     result_x, result_y = (result_x * 2) % p, (result_y * 2) % p
 
     # Increment the scalar value private_key
-    private_key += 99000000
+    private_key += 104392974095064494157406059479734501403995181641
 
     
     # Increment the counter
-    counter += 99000000
+    counter += 104392974095064494157406059479734501403995181641
 
     print("Counter:", counter)
     
