@@ -15,7 +15,7 @@ def find_public_key_x_public_key_y_and_private_key(public_key, generator_x, gene
   result_x, result_y = 0, 0
 
   # Initialize the scalar value private_key to 0
-  private_key_min = 1
+  private_key_min = 730750818665451459101842416358141509827966271487
   private_key = private_key_min
 
   counter = 0
